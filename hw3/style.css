@@ -1,45 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: bisque;
-    margin: 20px;
-    padding: 0;
-}
-h3 {
-    text-align: center;
+    font-family: Geneva;
 }
 
 #header {
-    text-align: center;
-    border-bottom: 1px solid lightgray;
-    margin-bottom: 20px;
+    background-color: dimgray;
+    height: 5.5rem;
+    border-bottom: 1rem solid lightsalmon;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: white;
 }
 
 #title {
-    text-align: center; 
-    margin-bottom: 30px;
+    height: 27rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+div {
+    margin: 0 auto;
 }
 
 #about {
-    display: flex;       
-    align-items: center;  
-    margin-bottom: 30px;
+    display: flex;
 }
 
 #about img {
-    width: 150px;
-    margin-right: 20px;   
+    height: 15rem; 
+}
+
+h3 {
+    color: lightsalmon;
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.5rem;
 }
 
 #fav {
-    display: flex;      
-    margin-bottom: 30px;
-}
-
-#fav ol {
-    margin-right: 100px;    
-}
-
-#wish {
-    border-top: 1px solid gray;
-    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
