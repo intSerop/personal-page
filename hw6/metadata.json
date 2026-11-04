@@ -1,0 +1,6 @@
+{
+  "name": "MercyMed Clinic Bishkek",
+  "description": "Official first-version website for MercyMed Medical Center in Bishkek, Kyrgyzstan. Evidence-based family medicine, consultations, diagnostics, and partnership information in English, Kyrgyz, and Russian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
