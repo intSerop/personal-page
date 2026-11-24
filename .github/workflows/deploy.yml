@@ -38,6 +38,15 @@ jobs:
 
       - name: Prepare website
         run: |
+          mkdir -p site
+
+          # Copy the main homepage
+          cp index.html site/
+
+          # Copy previous assignments
+          cp -R hw2 hw3 hw5 hw8 site/
+
+          # Copy the built HW6 website
           mkdir -p site/hw6
           cp -R hw6/dist/. site/hw6/
 
